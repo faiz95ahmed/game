@@ -37,6 +37,7 @@ public class CustomCarControl : MonoBehaviour {
     float top_speed = 0;
     float distance_travelled = 0;
     float nitro_usage = 0;
+    int resets_required = 0;
     int lastUpdate = 0;
 
     int historyFramerate = 20; //number of frames between ghost car snapshots
@@ -193,6 +194,7 @@ public class CustomCarControl : MonoBehaviour {
         Quaternion spawnRotation = Quaternion.LookRotation(tc.GetNextMarker(lastVisited) - spawnPosition, Vector3.up);
         transform.SetPositionAndRotation(spawnPosition, spawnRotation);
         rb.velocity = Vector3.zero;
+        resets_required += 1;
     }
 
     private void FixedUpdate() {
@@ -273,6 +275,7 @@ public class CustomCarControl : MonoBehaviour {
         data.history = history;
         data.historyFramerate = historyFramerate;
         data.nitro_usage = nitro_usage;
+        data.resets_required = resets_required;
         ui.EndLevel(data);
         gm.inter.EndLevel(data);
     }

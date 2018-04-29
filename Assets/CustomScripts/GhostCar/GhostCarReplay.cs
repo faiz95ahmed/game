@@ -27,7 +27,6 @@ public class GhostCarReplay : MonoBehaviour {
 
         //update the interpolation endpoints
         int indexInHistory = frame / data.historyFramerate;
-        Debug.Log(indexInHistory);
         TransformData lastTransform, nextTransform;
         if (indexInHistory >= data.history.Count - 1) {
             lastTransform = nextTransform = data.history[data.history.Count - 1];
