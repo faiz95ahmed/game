@@ -49,7 +49,7 @@ public struct GhostCarSetup {
 [Serializable]
 public struct EndLevelData {
     public float time, top_speed, fuel_used, distance_travelled, average_speed, nitro_usage;
-    public int frames;
+    public int frames, resets_required;
     public String track;
     public List<TransformData> history;
     public int historyFramerate; //record this so old runs can still be used if we decide to change the framerate
