@@ -1740,8 +1740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42ede3ad647274ed7b6c8b4a9a5aad8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minAngle: -76.7
-  maxAngle: -193
+  minAngle: -75.5
+  maxAngle: -196.5
 --- !u!114 &114993088282764498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2018,17 +2018,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892490815680268}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9914449, w: 0.13052626}
+  m_LocalRotation: {x: -0, y: 0, z: -0.98965144, w: -0.1434925}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224887608890000328}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 165}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -196.5}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 10}
-  m_SizeDelta: {x: 59.52, y: 59.52}
+  m_AnchoredPosition: {x: 0, y: 4}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224662513372292234
 RectTransform:
@@ -2102,7 +2102,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 250, y: 45.03}
-  m_SizeDelta: {x: 164.39001, y: 92.06}
+  m_SizeDelta: {x: 175, y: 86.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224946811803585040
 RectTransform:
@@ -2110,13 +2110,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1634364758959036}
-  m_LocalRotation: {x: -0, y: -0, z: 0.10082735, w: -0.9949039}
+  m_LocalRotation: {x: 0, y: 0, z: -0.10105626, w: 0.99488074}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224766257821314026}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.574}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.6}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}

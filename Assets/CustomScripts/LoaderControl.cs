@@ -48,6 +48,7 @@ public class LoaderControl : MonoBehaviour {
     void LoadTrack() {
         loading = true;
         GetComponent<Canvas>().enabled = false;
+        Debug.Log("Loading track: " + data[index].level);
         SceneManager.LoadScene(data[index].level);
     }
 
